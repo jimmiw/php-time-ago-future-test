@@ -1,0 +1,21 @@
+{
+    "name": "jw/phptimeago-tester",
+    "description": "Testing future dates",
+    "require": {
+        "jimmiw/php-time-ago": "3.0.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.3.5"
+    },
+    "authors": [
+        {
+            "name": "Jimmi Westerberg",
+            "email": "jw@konform.com"
+        }
+    ],
+    "autoload": {
+		"psr-4": {
+			"Westsworld\\TimeAgo\\Future\\": "src/"
+		}
+    }
+}
